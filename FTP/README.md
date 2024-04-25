@@ -56,7 +56,7 @@ def ftp_download(hostname, username, password, remote_file, local_dir):
         print(f"FTP error: {e}")
 
 # Example usage
-ftp_upload('ftp://bck-speedtest-1.tele2.net/', 'username', 'password', 'local_file.txt', '/upload')
+ftp_upload('bck-speedtest-1.tele2.net', 'anonymous', 'password', 'local_file.txt', '/upload')
 ftp_download('ftp.example.com', 'username', 'password', 'remote_file.txt', 'local_directory')
 ```
 
